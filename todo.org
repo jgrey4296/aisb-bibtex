@@ -1,0 +1,176 @@
+#+TITLE: aisb todos
+
+* Overview :toc:
+- [[#main][Main]]
+- [[#links][Links]]
+  - [[#aisbj][aisbj]]
+
+* Main
+*** DONE 1974_aisb.bib
+*** DONE 1976_aisb.bib
+*** DONE 1978_aisb.bib
+*** DONE 1980_aisb.bib
+*** DONE 1985_aisb.bib
+*** DONE 2000
+**** DONE 2000_aisb.bib
+**** DONE 2000_aisb_b.bib
+**** DONE 2000_aisb_c.bib
+**** DONE 2000_aisb_d.bib
+**** DONE 2000_aisb_e.bib
+**** DONE 2000_aisb_f.bib
+**** DONE 2000_aisb_g.bib
+*** 2002
+**** DONE 2002_aisb.bib
+**** DONE 2002_aisb_b.bib
+**** DONE 2002_aisb_c.bib
+**** DONE 2001_aisb_d.bib
+**** TODO 2002_aisb_e.bib
+**** TODO 2002_aisb_f.bib
+*** 2003
+**** DONE 2003_aisb.bib
+**** DONE 2003_aisb_b.bib
+**** TODO 2003_aisb_c.bib                      :toc:
+**** TODO 2003_aisb_d.bib                      :toc:
+*** 2004
+**** TODO 2004_aisb.bib                        :toc:
+**** TODO 2004_aisb_b.bib                      :toc:
+**** TODO 2004_aisb_c.bib                      :toc:
+**** TODO 2004_aisb_d.bib                      :toc:
+**** TODO 2004_aisb_e.bib                      :toc:
+*** 2005
+**** TODO 2005_aisb.bib                        :toc:
+**** TODO 2005_aisb_b.bib                      :toc:
+**** TODO 2005_aisb_c.bib                      :toc:
+**** TODO 2005_aisb_d.bib                      :toc:
+**** TODO 2005_aisb_e.bib                      :toc:
+**** TODO 2005_aisb_f.bib                      :toc:
+**** TODO 2005_aisb_g.bib                      :toc:
+**** TODO 2005_aisb_h.bib                      :toc:
+**** TODO 2005_aisb_i.bib                      :toc:
+**** TODO 2005_aisb_j.bib                      :toc:
+*** 2006
+**** TODO 2006_aisb.bib                        :toc:
+**** TODO 2006_aisb_b.bib                      :toc:
+**** TODO 2006_aisb_c.bib                      :toc:
+*** TODO 2007_aisb.bib
+*** 2008
+**** TODO 2008_aisb.bib                        :toc:
+**** TODO 2008_aisb_b.bib                      :toc:
+**** TODO 2008_aisb_c.bib                      :toc:
+**** TODO 2008_aisb_d.bib                      :toc:
+**** TODO 2008_aisb_e.bib                      :toc:
+**** TODO 2008_aisb_f.bib                      :toc:
+**** TODO 2008_aisb_g.bib                      :toc:
+**** TODO 2008_aisb_h.bib                      :toc:
+**** TODO 2008_aisb_i.bib                      :toc:
+**** TODO 2008_aisb_j.bib                      :toc:
+**** TODO 2008_aisb_k.bib                      :toc:
+**** TODO 2008_aisb_l.bib                      :toc:
+*** 2009
+**** TODO 2009_aisb.bib                        :toc:
+**** TODO 2009_aisb_b.bib                      :toc:
+**** TODO 2009_aisb_c.bib                      :toc:
+**** TODO 2009_aisb_d.bib                      :toc:
+**** TODO 2009_aisb_e.bib                      :toc:
+**** TODO 2009_aisb_f.bib                      :toc:
+**** TODO 2009_aisb_g.bib                      :toc:
+**** TODO 2009_aisb_h.bib                      :toc:
+**** TODO 2009_aisb_i.bib                      :toc:
+**** TODO 2009_aisb_j.bib                      :toc:
+**** TODO 2009_aisb_k.bib                      :toc:
+**** TODO 2009_aisb_l.bib                      :toc:
+*** 2010
+**** TODO 2010_aisb.bib
+**** TODO 2010_aisb_b.bib
+**** TODO 2010_aisb_c.bib
+**** TODO 2010_aisb_d.bib
+**** TODO 2010_aisb_e.bib
+**** TODO 2010_aisb_f.bib
+**** TODO 2010_aisb_g.bib
+**** TODO 2010_aisb_h.bib
+**** TODO 2010_aisb_i.bib
+**** TODO 2010_aisb_j.bib
+**** TODO 2010_aisb_k.bib
+**** TODO 2010_aisb_l.bib
+**** TODO 2010_aisb_m.bib
+*** 2011
+**** TODO 2011_aisb.bib                        :toc:
+**** TODO 2011_aisb_b.bib                      :toc:
+**** TODO 2011_aisb_c.bib                      :toc:
+**** TODO 2011_aisb_d.bib                      :toc:
+**** TODO 2011_aisb_e.bib                      :toc:
+**** TODO 2011_aisb_f.bib                      :toc:
+**** TODO 2011_aisb_g.bib                      :toc:
+**** TODO 2011_aisb_h.bib                      :toc:
+**** TODO 2011_aisb_i.bib                      :toc:
+*** 2012
+**** TODO 2012_aisb.bib                        :toc:
+**** TODO 2012_aisb_b.bib                      :toc:
+**** TODO 2012_aisb_c.bib                      :toc:
+**** TODO 2012_aisb_d.bib                      :toc:
+**** TODO 2012_aisb_e.bib                      :toc:
+**** TODO 2012_aisb_f.bib                      :toc:
+**** TODO 2012_aisb_g.bib                      :toc:
+**** TODO 2012_aisb_h.bib                      :toc:
+**** TODO 2012_aisb_i.bib                      :toc:
+**** TODO 2012_aisb_j.bib
+**** TODO 2012_aisb_k.bib                      :toc:
+**** TODO 2012_aisb_l.bib                      :toc:
+**** TODO 2012_aisb_m.bib                      :toc:
+**** TODO 2012_aisb_n.bib                      :toc:
+*** 2013
+**** TODO 2013_aisb.bib                        :toc:
+**** TODO 2013_aisb_b.bib                      :toc:
+**** TODO 2013_aisb_c.bib
+**** TODO 2013_aisb_d.bib                      :toc:
+**** TODO 2013_aisb_e.bib                      :toc:
+**** TODO 2013_aisb_f.bib                      :toc:
+**** TODO 2013_aisb_g.bib                      :toc:
+**** TODO 2013_aisb_h.bib                      :toc:
+*** DONE 2014
+**** DONE 2014 _aisb_a.bib
+**** DONE 2014 _aisb_b.bib
+**** DONE 2014 _aisb_c.bib
+**** DONE 2014 _aisb_d.bib
+**** DONE 2014 _aisb_e.bib
+**** DONE 2014 _aisb_f.bib
+**** DONE 2014 _aisb_g.bib
+**** DONE 2014 _aisb_h.bib
+**** DONE 2014 _aisb_i.bib
+**** DONE 2014 _aisb_j.bib
+**** DONE 2014 _aisb_k.bib
+**** DONE 2014 _aisb_l.bib
+**** DONE 2014 _aisb_m.bib
+**** DONE 2014 _aisb_n.bib
+**** DONE 2014 _aisb_o.bib
+**** DONE 2014 _aisb_p.bib
+**** DONE 2014 _aisb_q.bib
+**** DONE 2014 _aisb_r.bib
+**** DONE 2014 _aisb_s.bib
+**** DONE 2014 _aisb_t.bib
+**** DONE 2014 _aisb_u.bib
+**** DONE 2014 _aisb_v.bib
+*** 2015
+**** TODO 2015_aisb.bib                        :toc:
+**** TODO 2015_aisb_b.bib                      :toc:
+**** TODO 2015_aisb_c.bib                      :toc:
+**** TODO 2015_aisb_d.bib                      :toc:
+**** TODO 2015_aisb_e.bib                      :toc:
+**** TODO 2015_aisb_f.bib                      :toc:
+**** TODO 2015_aisb_g.bib                      :toc:
+**** TODO 2015_aisb_h.bib                      :toc:
+*** 2016
+**** TODO 2016_aisb.bib                        :toc:
+**** TODO 2016_aisb_b.bib
+**** TODO 2016_aisb_c.bib                      :toc:
+**** TODO 2016_aisb_d.bib
+**** TODO 2016_aisb_e.bib
+**** TODO 2016_aisb_f.bib
+**** TODO 2016_aisb_g.bib                      :toc:
+**** TODO 2016_aisb_h.bib
+**** TODO 2016_aisb_i.bib
+*** DONE 2017_aisb.bib                         :toc:
+*** DONE 2023_aisb.bib                          :toc:
+* Links
+** aisbj
+https://web.archive.org/web/20070927043910/http://www.aisb.org.uk/aisbj/index.shtml
