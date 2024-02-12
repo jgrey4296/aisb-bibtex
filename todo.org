@@ -26,17 +26,17 @@
 **** DONE 2001_aisb_d.bib
 **** TODO 2002_aisb_e.bib
 **** TODO 2002_aisb_f.bib
-*** 2003
+*** DONE 2003
 **** DONE 2003_aisb.bib
 **** DONE 2003_aisb_b.bib
-**** TODO 2003_aisb_c.bib                      :toc:
-**** TODO 2003_aisb_d.bib                      :toc:
-*** 2004
-**** TODO 2004_aisb.bib                        :toc:
-**** TODO 2004_aisb_b.bib                      :toc:
-**** TODO 2004_aisb_c.bib                      :toc:
-**** TODO 2004_aisb_d.bib                      :toc:
-**** TODO 2004_aisb_e.bib                      :toc:
+**** DONE 2003_aisb_c.bib                      :toc:
+**** DONE 2003_aisb_d.bib                      :toc:
+*** DONE 2004
+**** DONE 2004_aisb.bib                        :toc:
+**** DONE 2004_aisb_b.bib                      :toc:
+**** DONE 2004_aisb_c.bib                      :toc:
+**** DONE 2004_aisb_d.bib                      :toc:
+**** DONE 2004_aisb_e.bib                      :toc:
 *** 2005
 **** TODO 2005_aisb.bib                        :toc:
 **** TODO 2005_aisb_b.bib                      :toc:
@@ -48,10 +48,10 @@
 **** TODO 2005_aisb_h.bib                      :toc:
 **** TODO 2005_aisb_i.bib                      :toc:
 **** TODO 2005_aisb_j.bib                      :toc:
-*** 2006
-**** TODO 2006_aisb.bib                        :toc:
-**** TODO 2006_aisb_b.bib                      :toc:
-**** TODO 2006_aisb_c.bib                      :toc:
+*** DONE 2006
+**** DONE 2006_aisb.bib                        :toc:
+**** DONE 2006_aisb_b.bib                      :toc:
+**** DONE 2006_aisb_c.bib                      :toc:
 *** TODO 2007_aisb.bib
 *** 2008
 **** TODO 2008_aisb.bib                        :toc:
