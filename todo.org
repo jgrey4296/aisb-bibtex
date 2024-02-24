@@ -19,13 +19,13 @@
 **** DONE 2000_aisb_e.bib
 **** DONE 2000_aisb_f.bib
 **** DONE 2000_aisb_g.bib
-*** 2002
+*** DONE 2002
 **** DONE 2002_aisb.bib
 **** DONE 2002_aisb_b.bib
 **** DONE 2002_aisb_c.bib
 **** DONE 2001_aisb_d.bib
-**** TODO 2002_aisb_e.bib
-**** TODO 2002_aisb_f.bib
+**** DONE 2002_aisb_e.bib
+**** DONE 2002_aisb_f.bib
 *** DONE 2003
 **** DONE 2003_aisb.bib
 **** DONE 2003_aisb_b.bib
