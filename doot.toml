@@ -6,7 +6,7 @@ location_check           = { make_missing = true, print_levels={action="WARN", e
 max_steps                = 100_000
 
 [settings.tasks]
-sources = [".tasks"] # Files or directories where task specs can be loaded from, expanded according to [[locations]] keys
+sources = ["../../../.tasks"] # Files or directories where task specs can be loaded from, expanded according to [[locations]] keys
 code    = []         # Directories where task specific code can be imported from, expanded according to [[locations]] keys
 sleep   = { task=0.2, subtask=1, batch=1 }
 
@@ -27,4 +27,7 @@ task           = {}
 run = { tracker = "default", runner = "default", reporter= "default", report-line = []}
 
 [[locations]]
-bib = "bibtex"
+bib           = "bibtex"
+temp          = ".temp"
+export        = "{temp}/export"
+substitutions = ""
