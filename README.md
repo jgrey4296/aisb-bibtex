@@ -12,3 +12,4 @@ So I've gone through and made some bibtex for them (2000 - 2023).
 This isn't complete, the todo.org file tracks where I'm at.
 For Readability, files are written as UTF-8, and non-ascii characters are used.
 If you are going to feed these into bibtex, you would want to run a unicode -> latex convertor first.
+File names are in the form `{year}_aisb_{short workshop name}.bib`.
