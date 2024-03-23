@@ -2,33 +2,65 @@
 
 * Overview :toc:
 - [[#main][Main]]
+- [[#difficulties][Difficulties]]
+  - [[#1991][1991]]
+  - [[#1989][1989]]
+  - [[#1999][1999]]
+  - [[#2001][2001]]
 - [[#links][Links]]
   - [[#aisbj][aisbj]]
 
 * Main
-*** DONE 1974
-*** DONE 1976
-*** DONE 1978
-*** DONE 1980
-*** DONE 1985
-*** DONE 2000
-*** DONE 2002
-*** DONE 2003
-*** DONE 2004
-*** DONE 2005
-*** DONE 2006
-*** DONE 2007
-*** DONE 2008
-*** DONE 2009
-*** TODO 2010
-*** TODO 2011
+*** 1974
+*** 1976
+*** 1978
+*** 1980
+*** 1985
+*** TODO 1994
+*** TODO 1995
+*** TODO 1996
+*** TODO 1997
+*** TODO 1999
+*** 2000
+*** TODO 2001
+*** 2002
+*** 2003
+*** 2004
+*** 2005
+*** 2006
+*** 2007
+*** 2008
+*** 2009
+*** 2010
+*** 2011
 *** TODO 2012
 *** TODO 2013
-*** DONE 2014
+*** 2014
 *** TODO 2015
-*** TODO 2016
-*** DONE 2017
-*** DONE 2023
+*** 2016
+*** 2017
+*** TODO 2018
+*** 2019
+*** 2020
+*** 2021
+*** 2023
+* Difficulties
+Supposedly there were conferences in 1991, and 1989. They are hard to come by.
+1999, 2001, 2018, 2019, 2020, and 2021 I've managed to find some symposium proceedings for, but not all.
+
+https://bll01.primo.exlibrisgroup.com/discovery/search?query=any%2Ccontains%2CAISB&tab=LibraryCatalog&search_scope=Not_BL_Suppress&sortby=date_a&vid=44BL_INST%3ABLL01&mfacet=rtype%2Cinclude%2Cconference_proceedings%2C1&offset=0&came_from=sort
+** 1991
+ISBN : 0387196714 / 3540196714
+** 1989
+ISBN : 1558600876
+ISBN : 0273088084
+** 1999
+ ISBN : 190295601X :
+1902956036
+1902956001
+1902956060
+** 2001
+
 * Links
 ** aisbj
 https://web.archive.org/web/20070927043910/http://www.aisb.org.uk/aisbj/index.shtml
