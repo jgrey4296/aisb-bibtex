@@ -48,13 +48,15 @@ from bibtexparser import middlewares as ms
 
 MYBIB                              = "#my_bibtex"
 MAX_TAGS                           = 7
+COUNT = DootKey.build("count")
 UPDATE        : Final[DootKey] = DootKey.build("update_")
 FROM_KEY      : Final[DootKey] = DootKey.build("from")
 
 def oldest(spec:list, state, sub_specs) -> list:
     # Sorts oldest -> newest
     by_mod_time = sorted(sub_specs, key=lambda x: x.extra.fpath.stat().st_mtime)
-    return by_mod_time[0:job.spec.extra.select_limit]
+    sel_count = COUNT.to_type(spec, state, type_=int)
+    return by_mod_time[0:sel_count]
 
 def select_one_entry(spec, state):
     bib_db     = FROM_KEY.to_type(spec, state, type_=BTP.Library)

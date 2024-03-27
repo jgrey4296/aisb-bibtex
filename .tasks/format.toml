@@ -10,11 +10,11 @@ doc                  = ["Load each bib file and format/validate it"]            
 print_levels         = { head="INFO", build="WARNING", execute="INFO", sleep="WARNING", action="WARNING" }
 roots                = ["{bib}"]                                                            # <list[str|pl.Path]>  Places the job:walker will start
 exts                 = [".bib"]                                                             # <list[str]>
-select_limit         = 10                                                                   # <int|None>
+select_limit         = 20
 actions = [
         {do="job.walk",        update_="walked"},
         {do="job.expand",      from_="walked", update_="tasks", inject={replace=["fpath"]}, base="format::_individual"},
-        {do="job.limit",       from_="tasks", count_="select_limit", method_="taskcode.bibtex:oldest"},
+        {do="job.limit",       from_="tasks", count_="select_limit", method="taskcode.bibtex:oldest"},
         {do="job.inject.path", onto_="tasks", key_="fpath"},
         {do="job.queue",       from_="tasks"},
         {do="job.queue.head"},
