@@ -1,4 +1,6 @@
 #+TITLE: aisb todos
+#+STARTUP: agenda
+
 
 * Overview :toc:
 - [[#main][Main]]

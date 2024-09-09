@@ -74,7 +74,6 @@ def build_working_parse_stack(spec, state, _libroot):
         BM.DuplicateHandler(),
         ms.ResolveStringReferencesMiddleware(True),
         ms.RemoveEnclosingMiddleware(True),
-        # BM.LatexReader(True, keep_braced_groups=True, keep_math_mode=True),
         BM.PathReader(lib_root=_libroot),
         BM.IsbnValidator(True),
         BM.TagsReader(),
@@ -90,7 +89,6 @@ def build_working_write_stack(spec, state, _libroot):
     write_mids = [
         BM.NameWriter(True),
         ms.MergeCoAuthors(True),
-        # BM.LatexWriter(keep_math=True, enclose_urls=False),
         BM.IsbnWriter(True),
         BM.TagsWriter(),
         BM.PathWriter(lib_root=_libroot),
@@ -104,7 +102,7 @@ def build_export_write_stack(spec,state, _libroot):
     write_mids = [
         BM.NameWriter(True),
         ms.MergeCoAuthors(True),
-        BM.LatexWriter(keep_math=True, enclose_urls=False),
+        BM.LatexWriter(),
         BM.IsbnWriter(True),
         BM.TagsWriter(),
         BM.PathWriter(lib_root=_libroot),

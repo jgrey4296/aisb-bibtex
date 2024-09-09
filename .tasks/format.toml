@@ -17,7 +17,6 @@ actions = [
         {do="job.limit",       from_="tasks", count_="select_limit", method="taskcode.bibtex:oldest"},
         {do="job.inject.path", onto_="tasks", key_="fpath"},
         {do="job.queue",       from_="tasks"},
-        {do="job.queue.head"},
 ]
 
 
