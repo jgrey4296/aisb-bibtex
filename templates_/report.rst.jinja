@@ -1,0 +1,30 @@
+{# ## report.rst.jinja -*- mode: jinja2-mode -*- #}
+{% import "utils.jinja" as utils %} 
+
+.. _report:
+
+
+{{ utils.heading(title, above=True) }}
+
+{# -------------------------------------------------- #}
+
+.. contents:: Table of Contents
+
+
+.. csv-table::
+   :header: "Stat", "Value"    
+            
+   authors,    {{ data.authors | length }}              
+   editors,    {{ data.editors | length }}              
+   entries,    {{ data.entry_count }}                   
+   tags,       {{ data.tags | length }}                 
+   year range, {{ data.year_min }} - {{ data.year_max}} 
+   files,      {{ data.file_count }}                    
+   urls,       {{ data.url_count }}                     
+
+.. csv-table::
+   :header: "Entry Type", "Count"
+
+{% for x,y in data.entry_types | items | sort %}
+   {{ x }}, {{ y }}
+{% endfor %}

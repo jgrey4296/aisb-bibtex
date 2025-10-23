@@ -1,0 +1,86 @@
+% export_template.tex.jinja -*- mode: LaTeX/FP -*- 
+%% compiler:lualatex
+% !TeX TS-program = lualatex
+% !TeX encoding = UTF-8
+%% A bibtex export template with python string.Template keys
+\documentclass[12pt]{article}
+
+%%-- imports
+\usepackage[subpreambles=true]{standalone} % <--- for merging files
+\usepackage{import}                        % <--- for better importing
+\usepackage{fontspec}
+\usepackage[colorlinks=true, linkcolor=blue, urlcolor=blue, pdfstartview=FitH]{hyperref}
+\usepackage[russian,english]{babel}
+\usepackage[version=3]{mhchem}
+\usepackage{listings}
+\usepackage[numbers]{natbib}
+\usepackage{doi}
+\usepackage{titling}
+\usepackage{etoc}
+\usepackage{titlesec}
+\usepackage{silence}
+\usepackage{pgfgantt}
+%%-- end imports
+
+%%-- warnings
+% \WarningFilter{}{}
+% \suppressfontnotfounderror
+% \suppresslongerror
+% \suppressifcsnameerror
+% \suppressoutererror
+% \suppressmathparerror
+% \suppressprimitiveerror
+\hfuzz=10pt % silences overfull hboxes
+\vfuzz=10pt % silences overfull vboxes
+\overfullrule=0pt
+\tolerance=20000
+\hbadness=100000 % silences underfull hbox warnings
+\vbadness=100000 % silences underfull vbox warnings
+\WarningsOff*
+\ErrorsOff*
+
+%%-- end warnings
+
+\def\fulltitle{{{title}}}
+\def\fullauthor{{{author}}}
+
+\AfterPreamble{\hypersetup{
+    pdftitle={\fulltitle},
+    pdfauthor={\fullauthor},
+    pdfsubject={},
+    pdfkeywords={}
+  }}
+
+%%-- title formatting
+\pretitle{
+  \begin{center}
+    \ttfamily \huge 
+}
+\title{\fulltitle}
+\author{\fullauthor}
+\posttitle{
+  \linebreak
+  \normalsize
+  \rule{\linewidth}{1ex}
+  \linebreak
+  \end{center}
+}
+% args: shape, format, label, sep, before, after
+% shape: hang,block,display,runin,{left|right}margin,drop,wrap,frame
+% \renewcommand{\thechapter}{\Roman{chapter}}
+\titleformat{\chapter}
+[display]
+{\bfseries\Large}
+{\filright\MakeUppercase{\chaptertitlename} \Huge\thechapter}
+{4ex}
+{\titlerule \vspace{2ex} \filright}
+[\vspace{2ex} \titlerule]
+
+%%-- end title formatting
+\begin{document}
+\maketitle
+\nocite{*}
+% Bibtex:
+\bibliographystyle{{{style}}.bst}
+\bibliography{{{target}}}
+\end{document}
