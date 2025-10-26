@@ -23,3 +23,4 @@ Exported bibtex files and related documents.
    jourindex
    instindex
    seriesindex
+   report

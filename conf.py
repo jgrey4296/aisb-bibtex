@@ -144,23 +144,11 @@ exclude_patterns = []
 # ignore doc directories
 # and polyglot util directories
 exclude_patterns += [
-    "plus/*",
-    "bookmarks/*",
-    "completions/*",
-    "in_progress/*",
-    "readme.md",
-    "timelines/*",
     "**/.git",
     "**/.github",
-    "**/__tests/*",
-    "**/flycheck_*.py",
-    ".temp/mypy*",
-    ".temp/site"
-    ".temp/tox",
-    ".venv/*",
-    "static_/",
-    # "tags/*",
-    '**flycheck_*.py',
+    ".temp",
+    "static_",
+    "templates_",
 ]
 
 # ignore tests and util files
