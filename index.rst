@@ -1,6 +1,6 @@
 .. -*- mode: ReST -*-
 
-.. _root:
+.. _aisb_root:
 
 =================
 AISB Bibliography
@@ -19,8 +19,3 @@ Exported bibtex files and related documents.
    pages_/*
    tagindex
    authorindex
-   pubindex
-   jourindex
-   instindex
-   seriesindex
-   report
